@@ -206,8 +206,119 @@ nav {
     justify-content: center;
 }
 
-.my-inspiration-section .inspiration-body iframe{
-width: 1076px;
-height: 550px;
-border-radius: 16px;
+.my-inspiration-section .inspiration-body iframe {
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+/* Current target section style  */
+.current-target-section {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
+
+.current-target-section .current-target-section-head {
+    width: 852px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.current-target-section .current-target-section-body .current-target-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.current-target-section .current-target-section-body .current-target-card-container .current-target-card {
+    width: 364px;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.current-target-section .current-target-section-body .current-target-card-container .current-target-card1 {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.current-target-section .current-target-section-body .current-target-card-container .current-target-card2 {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.current-target-section .current-target-section-body .current-target-card-container .current-target-card3 {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.target-card-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+}
+
+.target-card-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.target-card-morebtn {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+
+/* next target style */
+
+.next-target-section {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 110px;
+
+}
+
+.next-target-section .next-target-section-head {
+    width: 852px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.next-target-section .next-target-section-body .next-target-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+
+.next-target-section .next-target-section-body .next-target-card-container .next-target-card {
+    width: 100%;
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.next-target-card-img{
+    width: 100px;
+    height: auto;
 }
