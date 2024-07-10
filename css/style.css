@@ -2,6 +2,10 @@
 
 /* font-family: "Azeret Mono", monospace; */
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* shared style */
 
 .btn-primary {
@@ -107,10 +111,16 @@ nav {
     text-align: center;
 }
 
-.banner-section .banner-container .banner-btn {
+.banner-section .banner-container .banner-btn{
+    background-color:rgb(13, 19, 33) ;
+}
+
+.banner-section .banner-container .banner-btn a{
+    text-decoration: none;
+    padding: 17px 24px;
     font-weight: 600;
     color: rgb(255, 255, 255);
-    background-color: rgb(13, 19, 33);
+
     /* margin-top: 32px; */
 }
 
@@ -328,11 +338,11 @@ nav {
     width: 1140px;
     margin: 0 auto;
     margin-top: 44px;
-    padding: 64px 48px;
+    padding: 64px 0;
     border-radius: 16px;
     border-radius: 16px;
-    background:  linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../assets/handshake.jpg)no-repeat center center/cover;
-    
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/handshake.jpg)no-repeat center center/cover;
+
 }
 
 .support-section .feedback-box {
@@ -357,4 +367,35 @@ nav {
 
 .support-section .submit-btn {
     border: 1px solid rgba(13, 19, 33, 0.15);
+}
+
+/* footer section start  */
+.footer-section {
+
+background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-section .footer-container {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 79px;
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section .footer-container .footer-text{
+ color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+text-align: center;
+}
+
+.footer-section .footer-container ul{
+    display: flex;
+    gap: 24px;
+    list-style: none;
 }
